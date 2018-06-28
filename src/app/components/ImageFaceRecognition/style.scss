@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+
+  .wrap {
+    position: relative;
+    margin-top: 0.5rem;
+
+    .img {
+      max-width: 100%;
+      border-style: none;
+    }
+
+    .box {
+      display: flex;
+      position: absolute;
+      flex-wrap: wrap;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 0 0 3px #149df2 inset;
+    }
+  }
+}

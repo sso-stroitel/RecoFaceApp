@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Teach Demo Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Teach Demo Regular"), url("./fonts/TeachDemo-Regular.woff") format("woff");
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  h1 {
+    margin: 0.5rem;
+    font-family: "Teach Demo Regular", sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #f6fdfd;
+  }
+}
